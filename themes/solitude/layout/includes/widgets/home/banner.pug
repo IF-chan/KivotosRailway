@@ -1,0 +1,23 @@
+div.banners-title
+    div.banners-title-big!= theme.hometop.banner.title
+    div.banners-title-small= theme.hometop.banner.url
+- var group = theme.hometop.group
+if group
+    div.banners-links
+        each value,label in group
+            - var array = value.split('||')
+            a.banners-link-btn(href=url_for(trim(array[0])) style=`background-image: ${array[2]} `)
+                if array[1]
+                    i.solitude(class=array[1])
+                .banners-link-title= label
+
+div.tags-group-all
+    .tags-group-wrapper
+        each i in [1,2]
+            - var keys = Object.keys(theme.hometop.banner.icon)
+            - var pairs = keys.map((val, i) => i % 2 ? [keys[i - 1], val] : []).filter(x => x.length)
+            each pair in pairs
+                .tags-group-icon-pair
+                    each key in pair
+                        .tags-group-icon(style=`background: ${theme.hometop.banner.icon[key].color}`)
+                            img.nolazyload(src=theme.hometop.banner.icon[key].img, title=key)

@@ -1,0 +1,5 @@
+.card-widget#card-toc
+    .item-headline
+        i.solitude.st-menu-line
+        span= __('aside.toc')
+    .toc-content#toc-content!= toc(page.content, { list_number: false })

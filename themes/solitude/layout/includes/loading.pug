@@ -1,0 +1,25 @@
+div(id="loading-box" onclick="preloader.endLoading();" style="zoom:1")
+    div.loading-bg
+        img.loading-img.nolazyload(src=url_for(theme.site.icon), alt="loading image")
+
+script.
+    const preloader = {
+        endLoading: () => {
+            document.getElementById('loading-box').classList.toggle('loaded');
+        },
+        initLoading: () => {
+            document.getElementById('loading-box').classList.remove('loaded');
+        },
+        removePaceDone: () => {
+            document.getElementById('body').classList = 'pace-done';
+        }
+    }
+    window.addEventListener('load', () => {
+        preloader.endLoading();
+    });
+    window.addEventListener('pjax:send', () => {
+        preloader.initLoading();
+    });
+    document.addEventListener('pjax:complete', () => {
+        preloader.endLoading();
+    });

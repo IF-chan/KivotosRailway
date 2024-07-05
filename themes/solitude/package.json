@@ -1,0 +1,32 @@
+{
+  "name": "hexo-theme-solitude",
+  "version": "1.12.2",
+  "description": "A beautiful, powerful, and efficient Hexo theme developed by EverFu.",
+  "main": "package.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "solitude",
+    "Card UI Design",
+    "EverFu",
+    "hexo-theme-solitude"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/everfu/hexo-theme-solitude"
+  },
+  "dependencies": {
+    "hexo-renderer-stylus": "^3.0.0",
+    "hexo-renderer-pug": "^3.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/everfu/hexo-theme-solitude/issues",
+    "email": "o@efu.me"
+  },
+  "homepage": "https://www.efu.me/",
+  "author": "Hexo-Theme-Solitude<o@efu.me>",
+  "license": "MIT"
+}

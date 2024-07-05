@@ -1,0 +1,72 @@
+if theme.post.footer.enable && is_post()
+    div#st-footer-bar
+        div.footer-logo
+            if theme.site.name.class === 'i_class'
+                i.solitude(class=theme.site.name.custom)
+            else if theme.site.name.class === 'img'
+                img.solitude.nolazyload(src=url_for(theme.site.name.custom))
+            else if theme.site.name.class === 'text'
+                span= theme.site.name.custom
+        div.footer-bar-description=theme.post.footer.desc
+        if theme.post.footer.button.enable
+            a.footer-bar-link(href=url_for(theme.post.footer.button.url))= theme.post.footer.button.name
+div#footer_deal
+    - var leftInfo = theme.footer && theme.footer.information && theme.footer.information.left || {}
+    - var rightInfo = theme.footer && theme.footer.information && theme.footer.information.right || {}
+
+    each value, label in leftInfo
+        - var array = value.split('||')
+        a.deal_link(href=url_for(trim(array[0])), title=label)
+            i.solitude(class=array[1])
+
+    if theme.footer.information.author
+        div#footer_mini_logo.nolazyload.footer_mini_logo(title=_p('nav.backtop'), onclick="sco.toTop()")
+            img(src=theme.site.icon, alt=_p('nav.backtop'))
+
+    each value, label in rightInfo
+        - var array = value.split('||')
+        a.deal_link(href=url_for(trim(array[0])), title=label)
+            i.solitude(class=array[1])
+div#st-footer
+    - var group = theme.footer && theme.footer.group ? theme.footer.group : {}
+
+    each value, x in group
+        div.footer-group
+            h3.footer-title= x
+            div.footer-links
+                each url, y in value
+                    a.footer-item(href=url_for(url), title=y)= y
+
+    if theme.footer && theme.footer.randomlink
+        div.footer-group
+            div.footer-title-group
+                h3.footer-title= _p('footer.randomlink')
+                button.random-friends-btn(onclick='randomLinksList()', title=_p('footer.randomlink'))
+                    i.solitude.st-refresh-line
+            div.footer-links#friend-links-in-footer
+div#footer-bar
+    div.footer-bar-links
+        div.footer-bar-left
+            if moment(theme.aside.siteinfo.runtime).year() === new Date().getFullYear()
+                div.copyright © #{moment(theme.aside.siteinfo.runtime).year()} By&nbsp;
+                    a.footer-bar-link(href=url_for("/"))= config.author
+            else
+                div.copyright © #{moment(theme.aside.siteinfo.runtime).year()} - #{new Date().getFullYear()} By&nbsp;
+                    a.footer-bar-link(href=url_for("/"))= config.author
+        div.footer-bar-right
+            each item in theme.footer.links
+                a.footer-bar-link(href=url_for(item.url), alt=item.name)!= item.name
+            a.footer-bar-link.cc(href=url_for(theme.footer.license), aria-label = 'copyright')
+                i.solitude.st-copyright-line
+                i.solitude.st-creative-commons-by-line
+                i.solitude.st-creative-commons-nc-line
+                i.solitude.st-creative-commons-nd-line
+if theme.footer.privacy
+    div.needEndHide#cookies-window
+        div.cookies-window-title= __('cookies.title')
+        div.cookies-window-content
+            span.cookies-tip= __('cookies.tip')
+            a.cookies-link(href=url_for(theme.footer.privacy), title=_p('cookies.privacy'))
+                i.solitude.st-right-btn-fill
+if theme.comment.use && theme.comment.commentBarrage
+    div.comment-barrage.needEndHide
