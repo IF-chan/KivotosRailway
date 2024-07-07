@@ -9,8 +9,12 @@ document.onmouseup = document.ondbclick = selectText;
 const rm = {
     mask: document.getElementById("rightmenu-mask"),
     menu: document.getElementById("rightMenu"),
-    width: 0,
-    height: 0,
+    get width() {
+        return this.menu.offsetWidth;
+    },
+    get height() {
+        return this.menu.offsetHeight;
+    },
     domhref: "",
     domsrc: "",
     globalEvent: null,
@@ -50,10 +54,8 @@ const rm = {
         rm.mask.style.display = "none";
     },
     reLoadSize() {
-        rm.menu.style.display = "block";
-        rm.width = rm.menu.offsetWidth;
-        rm.height = rm.menu.offsetHeight;
-        rm.menu.style.display = 'none';
+        this.menu.style.display = "block";
+        this.menu.style.display = "none";
     },
     copyText(e) {
         navigator.clipboard && navigator.clipboard.writeText(e);
@@ -99,9 +101,9 @@ const rm = {
 };
 
 function stopMaskScroll() {
-    utils.addEventListenerPjax(rm.menu, "mousewheel", rm.hideRightMenu, { passive: true });
-    utils.addEventListenerPjax(rm.mask, "mousewheel", rm.hideRightMenu, { passive: true });
-    utils.addEventListenerPjax(rm.mask, "click", rm.hideRightMenu, { passive: true });
+    utils.addEventListenerPjax(rm.menu, "mousewheel", rm.hideRightMenu);
+    utils.addEventListenerPjax(rm.mask, "mousewheel", rm.hideRightMenu);
+    utils.addEventListenerPjax(rm.mask, "click", rm.hideRightMenu);
 }
 
 window.oncontextmenu = (ele) => {

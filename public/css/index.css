@@ -1780,6 +1780,9 @@ hr {
   overflow: visible;
   display: none;
 }
+pre {
+  font-family: monospace, monospace;
+}
 a {
   color: var(--efu-fontcolor);
   text-decoration: none;
@@ -1797,8 +1800,7 @@ strong {
 }
 code,
 kbd,
-samp,
-pre {
+samp {
   font-family: monospace, monospace;
   font-size: 16px;
 }
@@ -2636,10 +2638,6 @@ span.tags-punctuation::before {
 [data-theme=dark] .toc .toc-item.active .toc-link .toc-text {
   color: var(--efu-white);
 }
-#aside-content .card-widget:hover .avatar-sticker {
-  opacity: 0;
-  transform: scale(0);
-}
 #aside-content .card-widget.card-recent-post {
   padding: 0.4rem 0.6rem !important;
 }
@@ -2678,30 +2676,6 @@ span.tags-punctuation::before {
 }
 #aside-content > .card-widget.card-info > div.card-info-avatarimg:hover img {
   transform: scale(1.03);
-}
-#aside-content .card-info .avatar-sticker {
-  position: absolute;
-  bottom: -2px;
-  right: -2px;
-  width: 33px;
-  height: 33px;
-  line-height: 34px;
-  z-index: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: 0.3s 0.2s;
-  transform: scale(1);
-  background: var(--efu-card-bg);
-  border-radius: 50%;
-}
-#aside-content .card-info .avatar-sticker img {
-  width: 26px;
-  height: 26px;
-}
-#aside-content .card-info :hover .avatar-sticker {
-  opacity: 0;
-  transform: scale(0);
 }
 #aside-content .card-info .author-info__desc {
   font-size: 12px;
@@ -3488,36 +3462,6 @@ span.tags-punctuation::before {
   content: '';
   z-index: -1;
 }
-#footer div#st-footer-bar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 16px;
-}
-#footer div#st-footer-bar a.footer-bar-link {
-  padding: 4px 16px;
-  background: var(--efu-secondbg);
-  border-radius: 20px;
-  margin-top: 8px;
-  font-size: 14px;
-  cursor: pointer;
-  border: var(--style-border-always);
-}
-#footer div#st-footer-bar a.footer-bar-link:hover {
-  background: var(--efu-main);
-  color: var(--efu-white);
-  transform: scale(1.1);
-  border-color: var(--efu-main);
-}
-#footer div#st-footer-bar .footer-logo {
-  font-size: 24px;
-}
-#footer div#st-footer-bar .footer-bar-description {
-  color: var(--efu-secondtext);
-  font-weight: 700;
-  padding: 0 0.5rem;
-  text-align: center;
-}
 #footer #footer_deal {
   justify-content: center;
   display: flex;
@@ -4121,17 +4065,10 @@ span.tags-punctuation::before {
     color: var(--efu-card-bg);
   }
 }
-#nav #site-name span.title {
-  letter-spacing: normal;
-  font-size: 1rem;
-  font-weight: 700;
-  padding: 0 5px;
-  line-height: 2rem;
-}
-@media screen and (max-width: 768px) {
-  #nav #site-name span.title {
-    padding-left: 8px;
-  }
+#nav #site-name img {
+  max-width: 120px;
+  max-height: 35px;
+  padding: 4px 8px;
 }
 #nav #blog_name {
   flex-wrap: nowrap;
