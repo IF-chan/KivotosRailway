@@ -6,4 +6,3 @@ node_modules/
 .deploy*/
 _multiconfig.yml
 image.psd
-source/_posts/*/
