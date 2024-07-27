@@ -188,7 +188,8 @@ aside:
     information: # 样式为1时请不要超过4个
     # Github: https://github.com/efuo || st-github-line # 名称：链接 || 图标
     # Bilibili: https://space.bilibili.com/1329819902 || st-bilibili-line
-      X: https://x.com/kivotosrailway || st-x-line
+    # X: https://x.com/kivotosrailway || st-twitter-fill
+    # 抖音: https://www.douyin.com/user/MS4wLjABAAAAfh75OKwaybtkhXcZPXM1tPIzJMpj56soi362vqoqMb1i1b_MIuS31XDuwJAAu1z- || st-douyin-fill
 
   # 二维码（不启用）
   flip:
