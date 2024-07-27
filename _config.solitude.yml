@@ -186,8 +186,9 @@ aside:
     # - 🎮 电竞游戏爱好者
     # 个人信息卡片底部的小图标，按照例子填写
     information: # 样式为1时请不要超过4个
-    # Github: https://github.com/efuo || st-github-line # 名称：链接 || 图标 / Name: link || icon
+    # Github: https://github.com/efuo || st-github-line # 名称：链接 || 图标
     # Bilibili: https://space.bilibili.com/1329819902 || st-bilibili-line
+      X: https://x.com/kivotosrailway || st-x-line
 
   # 二维码（不启用）
   flip:
