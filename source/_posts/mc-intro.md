@@ -4,8 +4,7 @@ date: 2024-07-06 21:00:00
 category:
   - [初来必看]
   - [MC服务器]
-cover: 
-  - 0.png
+cover: 0.png
 ---
 下面介绍我们基沃托斯铁道公团的娱乐项目————Minecraft服务器！
 
