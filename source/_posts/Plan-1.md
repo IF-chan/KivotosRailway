@@ -17,7 +17,10 @@ tag:
   - 东方铁道（eRAIL）
   - eRAIL南北线
   - eRAIL南横线
+  - 高都地下铁
   - 古河线
+  - 地道轨道交通
+  - 地道远郊线
 category:
   - [MC服务器, 建设规划]
 cover: https://image.kivotosrailway.com/file/92c08b31e89d171cd7c9e.png 
@@ -31,4 +34,5 @@ cover: https://image.kivotosrailway.com/file/92c08b31e89d171cd7c9e.png
 * 海兰德铁道橘线一期：滨江-彗星峰-海兰德-碎云工业园（代建新田B线），直通eRAIL南北线，预留西延伸
 * 真纪电铁星绘线，科里考斯交通日出平原环线共线段（米花-碎云工业园）四线化
 * 雅各宾中央线南岛中心-高松海岸-松米山，直通南横线（同时对线路进行改造）、古河线
-* 古河线（Furukawa Line）一期（高松海岸-莫拉曼尔克镇）
+* 高都地下铁古河线（Furukawa Line）一期（高松海岸-莫拉曼尔克镇）
+* 地道远郊线北北延伸（沏州镇-梦雨泽自由市）
