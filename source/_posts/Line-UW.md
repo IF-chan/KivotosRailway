@@ -6,7 +6,7 @@ tag:
   - 地道西线
 category:
   - [MC服务器, 线路介绍]
-cover: https://image.kivotosrailway.com/file/0d159da8974119b35964a.png
+cover: https://s21.ax1x.com/2024/09/20/pAMSWxs.png
 ---
 第二期线路介绍，我们将介绍开服四天王之一，同时也是本服务器第一条线路————地道西线！
 ![地道西线信息卡](https://s21.ax1x.com/2024/09/20/pAMSBrt.png)
