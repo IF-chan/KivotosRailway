@@ -6,7 +6,7 @@ tag:
   - 海兰德铁道
   - 海兰德本线
 category:
-  - [MC服务器, 线路介绍]
+  - 线路介绍
 cover: https://image.kivotosrailway.com/file/0d159da8974119b35964a.png
 ---
 第一期的线路介绍，我们将聚焦于开服四天王之一的————海兰德本线（原青森本线）!

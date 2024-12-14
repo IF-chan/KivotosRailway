@@ -11,7 +11,7 @@ tag:
   - 雅各宾铁道俱乐部
   - 雅各宾纵深线
 category:
-  - [MC服务器, 建设规划]
+  - 建设规划
 cover: https://image.kivotosrailway.com/file/92c08b31e89d171cd7c9e.png 
 ---
 注意：以下规划随时都有可能面目全非

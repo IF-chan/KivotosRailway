@@ -23,7 +23,7 @@ tag:
   - 地道轨道交通
   - 地道远郊线
 category:
-  - [MC服务器, 建设规划]
+  - 建设规划
 cover: https://image.kivotosrailway.com/file/92c08b31e89d171cd7c9e.png 
 ---
 我们的MC服务器轨道交通第一期建设规划已经公布（于9/8第四次进行了调整），建设内容如下：
