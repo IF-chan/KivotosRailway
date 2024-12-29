@@ -20,12 +20,12 @@ cover: 0.png
 ![雅各宾铁道俱乐部Logo](https://image.kivotosrailway.com/file/666f4a4f90712268f55d0.png)
 ### MAKI GROUP
 真纪电铁、东方铁道（eRAIL）和地道轨道交通的母公司（各自独立运作），总部在真纪园区（白龙江边）。
-![MAKI GROUP Logo](https://d1.aag.moe/public/2024/12/15/5fdeefc259faecf56119f00dec20064c.png)
+![MAKI GROUP Logo](https://s21.ax1x.com/2024/12/19/pAO8xoT.png)
 
 ## 一些景色
 ### 神社
 由Mutsuki233建造，位于北海道地区的神社，曾举办过新年活动。
-可乘坐雅各宾中央线和万灵海环状线到达~
+可乘坐彗星快线C线和万灵海环状线到达~
 ![](1_0.jpg)
 ![](1_1.jpg)
 ![](1_2.jpg)
