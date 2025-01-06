@@ -6,7 +6,7 @@ tags:
   - D.U.白鸟区
 category:
   - 建设规划
-cover: https://image.kivotosrailway.com/file/92c08b31e89d171cd7c9e.png 
+cover: https://image.kivotosrailway.com/file/92c08b31e89d171cd7c9e.png
 ---
 花筑市和D.U.白鸟区城市规划已经得到雅各宾俱乐部的批准，现进行公示：
 ## 花筑市
