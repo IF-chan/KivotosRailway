@@ -6,13 +6,12 @@ tags:
   - D.U.白鸟区
 category:
   - 建设规划
-cover: https://image.kivotosrailway.com/file/92c08b31e89d171cd7c9e.png
+cover: https://r2-image.kivotosrailway.com/2025/01/07/677d312c60fdc.png
 ---
-花筑市和D.U.白鸟区城市规划已经得到雅各宾俱乐部的批准，现进行公示：
-## 花筑市
+斯坦福德和D.U.白鸟区城市规划已经得到雅各宾俱乐部的批准，现进行公示：
+## 斯坦福德（Stepford）
 位于西部大陆，已有已经轨通的西部环线。
-![花筑市范围](https://d1.aag.moe/public/2024/12/29/acf5fea78f94c9620dd8b775d2f3cdd2.png)
-![花筑市规划](https://r2-image.kivotosrailway.com/2025/01/04/QQ图片20250104160116.jpg)
+![斯坦福德范围](斯坦福德.png)
 ## D.U.白鸟区
 位于东北大陆，致力于进行对某游戏的建筑还原。
 ![D.U.白鸟区范围](https://d1.aag.moe/public/2024/12/29/727a13e14be84f82b806a6bc4d77be59.png)

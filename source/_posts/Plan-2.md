@@ -5,7 +5,7 @@ tags:
   - 彗星快线
 category:
   - 建设规划
-cover: https://image.kivotosrailway.com/file/92c08b31e89d171cd7c9e.png 
+cover: https://r2-image.kivotosrailway.com/2025/01/07/677d312c60fdc.png
 ---
 经雅各宾俱乐部批准，KR服务器第二期建设规划正式公示：
 ## 快线现代化计划
